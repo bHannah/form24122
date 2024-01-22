@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>From</title>
+    <link rel="stylesheet" href="stilus.css">
 </head>
 <body>
-    
+    <h1>Mósómaci kérdőív</h1>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Mosómaci</legend>
+            <label for="nev">Név: </label>
+            <input type="text" id="nev" name="macinev" placeholder="racoon"><br>
+            <label for="nev">Szín: </label>
+            <input type="color" id="szín" name="maciszin" placeholder="blue"><br>
+            <label for="tomeg">Tömeg (kg): </label>
+            <input type="range" id="tomeg" placeholder="tomeg"><br>
+            <label for="bekuldes">Beküldés: </label>
+            <input type="submit"  value="küldés">
+        </fieldset>
+    </form>
 </body>
 </html>
